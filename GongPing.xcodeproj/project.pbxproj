@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187DB9F61D87ED5900E7135A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DB9F51D87ED5900E7135A /* main.m */; };
+		187DB9F91D87ED5900E7135A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DB9F81D87ED5900E7135A /* AppDelegate.m */; };
+		187DB9FC1D87ED5900E7135A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DB9FB1D87ED5900E7135A /* ViewController.m */; };
+		187DB9FF1D87ED5900E7135A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187DB9FD1D87ED5900E7135A /* Main.storyboard */; };
+		187DBA021D87ED5900E7135A /* GongPing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187DBA001D87ED5900E7135A /* GongPing.xcdatamodeld */; };
+		187DBA041D87ED5900E7135A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187DBA031D87ED5900E7135A /* Assets.xcassets */; };
+		187DBA071D87ED5900E7135A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187DBA051D87ED5900E7135A /* LaunchScreen.storyboard */; };
+		187DBA121D87ED5900E7135A /* GongPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DBA111D87ED5900E7135A /* GongPingTests.m */; };
+		187DBA1D1D87ED5900E7135A /* GongPingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DBA1C1D87ED5900E7135A /* GongPingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187DBA0E1D87ED5900E7135A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187DB9E91D87ED5900E7135A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187DB9F01D87ED5900E7135A;
+			remoteInfo = GongPing;
+		};
+		187DBA191D87ED5900E7135A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187DB9E91D87ED5900E7135A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187DB9F01D87ED5900E7135A;
+			remoteInfo = GongPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187DB9F11D87ED5900E7135A /* GongPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GongPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DB9F51D87ED5900E7135A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187DB9F71D87ED5900E7135A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187DB9F81D87ED5900E7135A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187DB9FA1D87ED5900E7135A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187DB9FB1D87ED5900E7135A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187DB9FE1D87ED5900E7135A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187DBA011D87ED5900E7135A /* GongPing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GongPing.xcdatamodel; sourceTree = "<group>"; };
+		187DBA031D87ED5900E7135A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187DBA061D87ED5900E7135A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187DBA081D87ED5900E7135A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DBA0D1D87ED5900E7135A /* GongPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GongPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DBA111D87ED5900E7135A /* GongPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GongPingTests.m; sourceTree = "<group>"; };
+		187DBA131D87ED5900E7135A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187DBA181D87ED5900E7135A /* GongPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GongPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187DBA1C1D87ED5900E7135A /* GongPingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GongPingUITests.m; sourceTree = "<group>"; };
+		187DBA1E1D87ED5900E7135A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187DB9EE1D87ED5900E7135A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DBA0A1D87ED5900E7135A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DBA151D87ED5900E7135A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187DB9E81D87ED5900E7135A = {
+			isa = PBXGroup;
+			children = (
+				187DB9F31D87ED5900E7135A /* GongPing */,
+				187DBA101D87ED5900E7135A /* GongPingTests */,
+				187DBA1B1D87ED5900E7135A /* GongPingUITests */,
+				187DB9F21D87ED5900E7135A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187DB9F21D87ED5900E7135A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187DB9F11D87ED5900E7135A /* GongPing.app */,
+				187DBA0D1D87ED5900E7135A /* GongPingTests.xctest */,
+				187DBA181D87ED5900E7135A /* GongPingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187DB9F31D87ED5900E7135A /* GongPing */ = {
+			isa = PBXGroup;
+			children = (
+				187DB9F71D87ED5900E7135A /* AppDelegate.h */,
+				187DB9F81D87ED5900E7135A /* AppDelegate.m */,
+				187DB9FA1D87ED5900E7135A /* ViewController.h */,
+				187DB9FB1D87ED5900E7135A /* ViewController.m */,
+				187DB9FD1D87ED5900E7135A /* Main.storyboard */,
+				187DBA031D87ED5900E7135A /* Assets.xcassets */,
+				187DBA051D87ED5900E7135A /* LaunchScreen.storyboard */,
+				187DBA081D87ED5900E7135A /* Info.plist */,
+				187DBA001D87ED5900E7135A /* GongPing.xcdatamodeld */,
+				187DB9F41D87ED5900E7135A /* Supporting Files */,
+			);
+			path = GongPing;
+			sourceTree = "<group>";
+		};
+		187DB9F41D87ED5900E7135A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187DB9F51D87ED5900E7135A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187DBA101D87ED5900E7135A /* GongPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				187DBA111D87ED5900E7135A /* GongPingTests.m */,
+				187DBA131D87ED5900E7135A /* Info.plist */,
+			);
+			path = GongPingTests;
+			sourceTree = "<group>";
+		};
+		187DBA1B1D87ED5900E7135A /* GongPingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187DBA1C1D87ED5900E7135A /* GongPingUITests.m */,
+				187DBA1E1D87ED5900E7135A /* Info.plist */,
+			);
+			path = GongPingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187DB9F01D87ED5900E7135A /* GongPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187DBA211D87ED5900E7135A /* Build configuration list for PBXNativeTarget "GongPing" */;
+			buildPhases = (
+				187DB9ED1D87ED5900E7135A /* Sources */,
+				187DB9EE1D87ED5900E7135A /* Frameworks */,
+				187DB9EF1D87ED5900E7135A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GongPing;
+			productName = GongPing;
+			productReference = 187DB9F11D87ED5900E7135A /* GongPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187DBA0C1D87ED5900E7135A /* GongPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187DBA241D87ED5900E7135A /* Build configuration list for PBXNativeTarget "GongPingTests" */;
+			buildPhases = (
+				187DBA091D87ED5900E7135A /* Sources */,
+				187DBA0A1D87ED5900E7135A /* Frameworks */,
+				187DBA0B1D87ED5900E7135A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187DBA0F1D87ED5900E7135A /* PBXTargetDependency */,
+			);
+			name = GongPingTests;
+			productName = GongPingTests;
+			productReference = 187DBA0D1D87ED5900E7135A /* GongPingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187DBA171D87ED5900E7135A /* GongPingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187DBA271D87ED5900E7135A /* Build configuration list for PBXNativeTarget "GongPingUITests" */;
+			buildPhases = (
+				187DBA141D87ED5900E7135A /* Sources */,
+				187DBA151D87ED5900E7135A /* Frameworks */,
+				187DBA161D87ED5900E7135A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187DBA1A1D87ED5900E7135A /* PBXTargetDependency */,
+			);
+			name = GongPingUITests;
+			productName = GongPingUITests;
+			productReference = 187DBA181D87ED5900E7135A /* GongPingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187DB9E91D87ED5900E7135A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaoRan;
+				TargetAttributes = {
+					187DB9F01D87ED5900E7135A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WED6K5JJW6;
+					};
+					187DBA0C1D87ED5900E7135A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WED6K5JJW6;
+						TestTargetID = 187DB9F01D87ED5900E7135A;
+					};
+					187DBA171D87ED5900E7135A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WED6K5JJW6;
+						TestTargetID = 187DB9F01D87ED5900E7135A;
+					};
+				};
+			};
+			buildConfigurationList = 187DB9EC1D87ED5900E7135A /* Build configuration list for PBXProject "GongPing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187DB9E81D87ED5900E7135A;
+			productRefGroup = 187DB9F21D87ED5900E7135A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187DB9F01D87ED5900E7135A /* GongPing */,
+				187DBA0C1D87ED5900E7135A /* GongPingTests */,
+				187DBA171D87ED5900E7135A /* GongPingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187DB9EF1D87ED5900E7135A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DBA071D87ED5900E7135A /* LaunchScreen.storyboard in Resources */,
+				187DBA041D87ED5900E7135A /* Assets.xcassets in Resources */,
+				187DB9FF1D87ED5900E7135A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DBA0B1D87ED5900E7135A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DBA161D87ED5900E7135A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187DB9ED1D87ED5900E7135A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DB9FC1D87ED5900E7135A /* ViewController.m in Sources */,
+				187DB9F91D87ED5900E7135A /* AppDelegate.m in Sources */,
+				187DBA021D87ED5900E7135A /* GongPing.xcdatamodeld in Sources */,
+				187DB9F61D87ED5900E7135A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DBA091D87ED5900E7135A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DBA121D87ED5900E7135A /* GongPingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187DBA141D87ED5900E7135A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187DBA1D1D87ED5900E7135A /* GongPingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187DBA0F1D87ED5900E7135A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187DB9F01D87ED5900E7135A /* GongPing */;
+			targetProxy = 187DBA0E1D87ED5900E7135A /* PBXContainerItemProxy */;
+		};
+		187DBA1A1D87ED5900E7135A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187DB9F01D87ED5900E7135A /* GongPing */;
+			targetProxy = 187DBA191D87ED5900E7135A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187DB9FD1D87ED5900E7135A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187DB9FE1D87ED5900E7135A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187DBA051D87ED5900E7135A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187DBA061D87ED5900E7135A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187DBA1F1D87ED5900E7135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187DBA201D87ED5900E7135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187DBA221D87ED5900E7135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GongPing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyuankeji.gpkc.GongPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187DBA231D87ED5900E7135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GongPing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyuankeji.gpkc.GongPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187DBA251D87ED5900E7135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GongPingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyuankeji.gpkc.GongPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GongPing.app/GongPing";
+			};
+			name = Debug;
+		};
+		187DBA261D87ED5900E7135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GongPingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyuankeji.gpkc.GongPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GongPing.app/GongPing";
+			};
+			name = Release;
+		};
+		187DBA281D87ED5900E7135A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GongPingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyuankeji.gpkc.GongPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GongPing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		187DBA291D87ED5900E7135A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GongPingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiyuankeji.gpkc.GongPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GongPing;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187DB9EC1D87ED5900E7135A /* Build configuration list for PBXProject "GongPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DBA1F1D87ED5900E7135A /* Debug */,
+				187DBA201D87ED5900E7135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187DBA211D87ED5900E7135A /* Build configuration list for PBXNativeTarget "GongPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DBA221D87ED5900E7135A /* Debug */,
+				187DBA231D87ED5900E7135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187DBA241D87ED5900E7135A /* Build configuration list for PBXNativeTarget "GongPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DBA251D87ED5900E7135A /* Debug */,
+				187DBA261D87ED5900E7135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187DBA271D87ED5900E7135A /* Build configuration list for PBXNativeTarget "GongPingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187DBA281D87ED5900E7135A /* Debug */,
+				187DBA291D87ED5900E7135A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		187DBA001D87ED5900E7135A /* GongPing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				187DBA011D87ED5900E7135A /* GongPing.xcdatamodel */,
+			);
+			currentVersion = 187DBA011D87ED5900E7135A /* GongPing.xcdatamodel */;
+			path = GongPing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 187DB9E91D87ED5900E7135A /* Project object */;
+}
