@@ -18,7 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    
+    int a =0;
+    //this is my second change an commit
     GPtabBarController * mainVC = [[GPtabBarController alloc]init];
     
     [self.window makeKeyAndVisible];
