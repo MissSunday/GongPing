@@ -155,7 +155,7 @@ static NSString *const defaultAddress = @"https://plogin.m.jd.com/user/login.act
     _registerButton.clipsToBounds = YES;
     _registerButton.layer.cornerRadius = 5;
     _registerButton.frame = CGRectMake(10, 350+0.375*[UIScreen mainScreen].bounds.size.width/4 +5, 80, 20 );
-    [_registerButton setTitleColor:[UIColor magentaColor] forState:UIControlStateNormal];
+    [_registerButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [_registerButton setTitle:@"快速登录" forState:UIControlStateNormal];
     [_registerButton addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
     _registerButton.tag=0;

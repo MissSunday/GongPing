@@ -889,8 +889,8 @@
 		187DBE8C1D87F85600E7135A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		187DBE8D1D87F85600E7135A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		187DBE8E1D87F85600E7135A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		187DBE8F1D87F85600E7135A /* denglu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglu@2x.png"; sourceTree = "<group>"; };
-		187DBE901D87F85600E7135A /* denglu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "denglu@3x.png"; sourceTree = "<group>"; };
+		187DBE8F1D87F85600E7135A /* denglu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "denglu@2x.png"; path = "resourse/class/libs/denglu@2x.png"; sourceTree = "<group>"; };
+		187DBE901D87F85600E7135A /* denglu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "denglu@3x.png"; path = "resourse/class/libs/denglu@3x.png"; sourceTree = "<group>"; };
 		187DBE921D87F85600E7135A /* LZPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPageContentView.h; sourceTree = "<group>"; };
 		187DBE931D87F85600E7135A /* LZPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPageContentView.m; sourceTree = "<group>"; };
 		187DBE941D87F85600E7135A /* LZPageMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPageMainCell.h; sourceTree = "<group>"; };
@@ -1231,6 +1231,8 @@
 		187DB9F41D87ED5900E7135A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				187DBE8F1D87F85600E7135A /* denglu@2x.png */,
+				187DBE901D87F85600E7135A /* denglu@3x.png */,
 				187DBCF11D87F6F100E7135A /* Default-568h@2x.png */,
 				187DB9F51D87ED5900E7135A /* main.m */,
 			);
@@ -1293,15 +1295,15 @@
 		187DBCB11D87F2B100E7135A /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
-				187DBCB21D87F2B100E7135A /* Member+net.h */,
-				187DBCB31D87F2B100E7135A /* Member+net.m */,
 				187DBCB41D87F2B100E7135A /* Member.h */,
 				187DBCB51D87F2B100E7135A /* Member.m */,
+				187DBCB21D87F2B100E7135A /* Member+net.h */,
+				187DBCB31D87F2B100E7135A /* Member+net.m */,
 				187DBCB61D87F2B100E7135A /* sqlitePersistent */,
-				187DBCD71D87F2B100E7135A /* TMBaseData.h */,
-				187DBCD81D87F2B100E7135A /* TMBaseData.m */,
 				187DBCD91D87F2B100E7135A /* TMStatusUtility.h */,
 				187DBCDA1D87F2B100E7135A /* TMStatusUtility.m */,
+				187DBCD71D87F2B100E7135A /* TMBaseData.h */,
+				187DBCD81D87F2B100E7135A /* TMBaseData.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -1350,10 +1352,10 @@
 			children = (
 				187DBCF41D87F70D00E7135A /* AppDelegate.h */,
 				187DBCF51D87F70D00E7135A /* AppDelegate.m */,
-				187DBCF61D87F70D00E7135A /* GPNaviViewController.h */,
-				187DBCF71D87F70D00E7135A /* GPNaviViewController.m */,
 				187DBCF81D87F70D00E7135A /* GPtabBarController.h */,
 				187DBCF91D87F70D00E7135A /* GPtabBarController.m */,
+				187DBCF61D87F70D00E7135A /* GPNaviViewController.h */,
+				187DBCF71D87F70D00E7135A /* GPNaviViewController.m */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -1383,12 +1385,12 @@
 		187DBD0D1D87F85600E7135A /* class */ = {
 			isa = PBXGroup;
 			children = (
+				187DBFB31D87F85700E7135A /* resourse */,
+				187DBFDC1D87F85700E7135A /* tools */,
 				187DBD131D87F85600E7135A /* home */,
 				187DBFCE1D87F85700E7135A /* sendMessage */,
 				187DBF451D87F85600E7135A /* me */,
 				187DBD0E1D87F85600E7135A /* fenye */,
-				187DBFB31D87F85700E7135A /* resourse */,
-				187DBFDC1D87F85700E7135A /* tools */,
 				187DBDEC1D87F85600E7135A /* libs */,
 				187DBC981D87F28900E7135A /* categary */,
 			);
@@ -1410,12 +1412,12 @@
 		187DBD131D87F85600E7135A /* home */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD141D87F85600E7135A /* communityExchange */,
-				187DBD841D87F85600E7135A /* controller */,
-				187DBD871D87F85600E7135A /* hotShow */,
-				187DBD991D87F85600E7135A /* model */,
 				187DBDA21D87F85600E7135A /* productShow */,
+				187DBD871D87F85600E7135A /* hotShow */,
+				187DBD141D87F85600E7135A /* communityExchange */,
 				187DBDC21D87F85600E7135A /* search */,
+				187DBD841D87F85600E7135A /* controller */,
+				187DBD991D87F85600E7135A /* model */,
 				187DBDE71D87F85600E7135A /* view */,
 			);
 			path = home;
@@ -1425,8 +1427,8 @@
 			isa = PBXGroup;
 			children = (
 				187DBD151D87F85600E7135A /* controller */,
-				187DBD551D87F85600E7135A /* model */,
 				187DBD731D87F85600E7135A /* view */,
+				187DBD551D87F85600E7135A /* model */,
 			);
 			path = communityExchange;
 			sourceTree = "<group>";
@@ -1434,24 +1436,24 @@
 		187DBD151D87F85600E7135A /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				187DBD241D87F85600E7135A /* GPCommunityAllViewController.h */,
+				187DBD251D87F85600E7135A /* GPCommunityAllViewController.m */,
 				187DBD161D87F85600E7135A /* DNCommunityDetailViewController.h */,
 				187DBD171D87F85600E7135A /* DNCommunityDetailViewController.m */,
+				187DBD1D1D87F85600E7135A /* DNLastAnswerTableViewCell.h */,
+				187DBD1E1D87F85600E7135A /* DNLastAnswerTableViewCell.m */,
+				187DBD1F1D87F85600E7135A /* DNLastAnswerTableViewCell.xib */,
+				187DBD261D87F85600E7135A /* GPCommunityDetailContentTableController.h */,
+				187DBD271D87F85600E7135A /* GPCommunityDetailContentTableController.m */,
 				187DBD181D87F85600E7135A /* DNCommunityListTableViewCell.h */,
 				187DBD191D87F85600E7135A /* DNCommunityListTableViewCell.m */,
 				187DBD1A1D87F85600E7135A /* DNCommunityListTableViewCell.xib */,
 				187DBD1B1D87F85600E7135A /* DNCommunityRankController.h */,
 				187DBD1C1D87F85600E7135A /* DNCommunityRankController.m */,
-				187DBD1D1D87F85600E7135A /* DNLastAnswerTableViewCell.h */,
-				187DBD1E1D87F85600E7135A /* DNLastAnswerTableViewCell.m */,
-				187DBD1F1D87F85600E7135A /* DNLastAnswerTableViewCell.xib */,
-				187DBD201D87F85600E7135A /* GPAllCommunityCellList.h */,
-				187DBD211D87F85600E7135A /* GPAllCommunityCellList.m */,
 				187DBD221D87F85600E7135A /* GPAllCommunityCellModel.h */,
 				187DBD231D87F85600E7135A /* GPAllCommunityCellModel.m */,
-				187DBD241D87F85600E7135A /* GPCommunityAllViewController.h */,
-				187DBD251D87F85600E7135A /* GPCommunityAllViewController.m */,
-				187DBD261D87F85600E7135A /* GPCommunityDetailContentTableController.h */,
-				187DBD271D87F85600E7135A /* GPCommunityDetailContentTableController.m */,
+				187DBD201D87F85600E7135A /* GPAllCommunityCellList.h */,
+				187DBD211D87F85600E7135A /* GPAllCommunityCellList.m */,
 				187DBD281D87F85600E7135A /* myCommunity */,
 			);
 			path = controller;
@@ -1460,7 +1462,12 @@
 		187DBD281D87F85600E7135A /* myCommunity */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD291D87F85600E7135A /* captain */,
+				187DBD451D87F85600E7135A /* GPCommunityMineViewController.h */,
+				187DBD461D87F85600E7135A /* GPCommunityMineViewController.m */,
+				187DBD471D87F85600E7135A /* GPPublishTopicController.h */,
+				187DBD481D87F85600E7135A /* GPPublishTopicController.m */,
+				187DBD491D87F85600E7135A /* GPReolayController.h */,
+				187DBD4A1D87F85600E7135A /* GPReolayController.m */,
 				187DBD3E1D87F85600E7135A /* DNCommunityViewController.h */,
 				187DBD3F1D87F85600E7135A /* DNCommunityViewController.m */,
 				187DBD401D87F85600E7135A /* DNSearchTableViewCell.h */,
@@ -1468,13 +1475,8 @@
 				187DBD421D87F85600E7135A /* DNSearchTableViewCell.xib */,
 				187DBD431D87F85600E7135A /* DNsearchViewController.h */,
 				187DBD441D87F85600E7135A /* DNsearchViewController.m */,
-				187DBD451D87F85600E7135A /* GPCommunityMineViewController.h */,
-				187DBD461D87F85600E7135A /* GPCommunityMineViewController.m */,
-				187DBD471D87F85600E7135A /* GPPublishTopicController.h */,
-				187DBD481D87F85600E7135A /* GPPublishTopicController.m */,
-				187DBD491D87F85600E7135A /* GPReolayController.h */,
-				187DBD4A1D87F85600E7135A /* GPReolayController.m */,
 				187DBD4B1D87F85600E7135A /* member */,
+				187DBD291D87F85600E7135A /* captain */,
 			);
 			path = myCommunity;
 			sourceTree = "<group>";
@@ -1482,18 +1484,6 @@
 		187DBD291D87F85600E7135A /* captain */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD2A1D87F85600E7135A /* GPCapainPeopleRepairController.h */,
-				187DBD2B1D87F85600E7135A /* GPCapainPeopleRepairController.m */,
-				187DBD2C1D87F85600E7135A /* GPCaptainContentDeleteController.h */,
-				187DBD2D1D87F85600E7135A /* GPCaptainContentDeleteController.m */,
-				187DBD2E1D87F85600E7135A /* GPCaptainContentRepairController.h */,
-				187DBD2F1D87F85600E7135A /* GPCaptainContentRepairController.m */,
-				187DBD301D87F85600E7135A /* GPCaptainContentTopViewController.h */,
-				187DBD311D87F85600E7135A /* GPCaptainContentTopViewController.m */,
-				187DBD321D87F85600E7135A /* GPCaptainPeopleBlackListViewController.h */,
-				187DBD331D87F85600E7135A /* GPCaptainPeopleBlackListViewController.m */,
-				187DBD341D87F85600E7135A /* GPCaptainPeopleDetailController.h */,
-				187DBD351D87F85600E7135A /* GPCaptainPeopleDetailController.m */,
 				187DBD361D87F85600E7135A /* GPCreatCommunityController.h */,
 				187DBD371D87F85600E7135A /* GPCreatCommunityController.m */,
 				187DBD381D87F85600E7135A /* GPMineCaptainCommController.h */,
@@ -1502,6 +1492,18 @@
 				187DBD3B1D87F85600E7135A /* GPOtherCommuintyNumberTableController.m */,
 				187DBD3C1D87F85600E7135A /* GPStillAuditingController.h */,
 				187DBD3D1D87F85600E7135A /* GPStillAuditingController.m */,
+				187DBD2E1D87F85600E7135A /* GPCaptainContentRepairController.h */,
+				187DBD2F1D87F85600E7135A /* GPCaptainContentRepairController.m */,
+				187DBD2A1D87F85600E7135A /* GPCapainPeopleRepairController.h */,
+				187DBD2B1D87F85600E7135A /* GPCapainPeopleRepairController.m */,
+				187DBD2C1D87F85600E7135A /* GPCaptainContentDeleteController.h */,
+				187DBD2D1D87F85600E7135A /* GPCaptainContentDeleteController.m */,
+				187DBD301D87F85600E7135A /* GPCaptainContentTopViewController.h */,
+				187DBD311D87F85600E7135A /* GPCaptainContentTopViewController.m */,
+				187DBD341D87F85600E7135A /* GPCaptainPeopleDetailController.h */,
+				187DBD351D87F85600E7135A /* GPCaptainPeopleDetailController.m */,
+				187DBD321D87F85600E7135A /* GPCaptainPeopleBlackListViewController.h */,
+				187DBD331D87F85600E7135A /* GPCaptainPeopleBlackListViewController.m */,
 			);
 			path = captain;
 			sourceTree = "<group>";
@@ -1509,15 +1511,15 @@
 		187DBD4B1D87F85600E7135A /* member */ = {
 			isa = PBXGroup;
 			children = (
+				187DBD4F1D87F85600E7135A /* DNJoinCommunityViewController.h */,
+				187DBD501D87F85600E7135A /* DNJoinCommunityViewController.m */,
+				187DBD531D87F85600E7135A /* GPMineMemberController.h */,
+				187DBD541D87F85600E7135A /* GPMineMemberController.m */,
 				187DBD4C1D87F85600E7135A /* DNJoinCommunityTableViewCell.h */,
 				187DBD4D1D87F85600E7135A /* DNJoinCommunityTableViewCell.m */,
 				187DBD4E1D87F85600E7135A /* DNJoinCommunityTableViewCell.xib */,
-				187DBD4F1D87F85600E7135A /* DNJoinCommunityViewController.h */,
-				187DBD501D87F85600E7135A /* DNJoinCommunityViewController.m */,
 				187DBD511D87F85600E7135A /* GPInviteCommunityController.h */,
 				187DBD521D87F85600E7135A /* GPInviteCommunityController.m */,
-				187DBD531D87F85600E7135A /* GPMineMemberController.h */,
-				187DBD541D87F85600E7135A /* GPMineMemberController.m */,
 			);
 			path = member;
 			sourceTree = "<group>";
@@ -1525,22 +1527,9 @@
 		187DBD551D87F85600E7135A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD561D87F85600E7135A /* DNCommunityListModel+net.h */,
-				187DBD571D87F85600E7135A /* DNCommunityListModel+net.m */,
-				187DBD581D87F85600E7135A /* DNCommunityListModel.h */,
-				187DBD591D87F85600E7135A /* DNCommunityListModel.m */,
-				187DBD5A1D87F85600E7135A /* DNLastAnswerDetailModel+net.h */,
-				187DBD5B1D87F85600E7135A /* DNLastAnswerDetailModel+net.m */,
-				187DBD5C1D87F85600E7135A /* DNLastAnswerDetailModel.h */,
-				187DBD5D1D87F85600E7135A /* DNLastAnswerDetailModel.m */,
-				187DBD5E1D87F85600E7135A /* DNLastAnswerNumModel+net.h */,
-				187DBD5F1D87F85600E7135A /* DNLastAnswerNumModel+net.m */,
-				187DBD601D87F85600E7135A /* DNLastAnswerNumModel.h */,
-				187DBD611D87F85600E7135A /* DNLastAnswerNumModel.m */,
-				187DBD621D87F85600E7135A /* DNPublished-Approve-ViolationsModel.h */,
-				187DBD631D87F85600E7135A /* DNPublished-Approve-ViolationsModel.m */,
-				187DBD641D87F85600E7135A /* DNPublished_Approve_ViolationsModel+net.h */,
-				187DBD651D87F85600E7135A /* DNPublished_Approve_ViolationsModel+net.m */,
+				187DBD701D87F85600E7135A /* ViewModel */,
+				187DBD6E1D87F85600E7135A /* GPCommunityModel.h */,
+				187DBD6F1D87F85600E7135A /* GPCommunityModel.m */,
 				187DBD661D87F85600E7135A /* GPCommunityAllList.h */,
 				187DBD671D87F85600E7135A /* GPCommunityAllList.m */,
 				187DBD681D87F85600E7135A /* GPCommunityAllModel.h */,
@@ -1549,9 +1538,22 @@
 				187DBD6B1D87F85600E7135A /* GPCommunityMineCaptainList.m */,
 				187DBD6C1D87F85600E7135A /* GPCommunityMineList.h */,
 				187DBD6D1D87F85600E7135A /* GPCommunityMineList.m */,
-				187DBD6E1D87F85600E7135A /* GPCommunityModel.h */,
-				187DBD6F1D87F85600E7135A /* GPCommunityModel.m */,
-				187DBD701D87F85600E7135A /* ViewModel */,
+				187DBD581D87F85600E7135A /* DNCommunityListModel.h */,
+				187DBD591D87F85600E7135A /* DNCommunityListModel.m */,
+				187DBD561D87F85600E7135A /* DNCommunityListModel+net.h */,
+				187DBD571D87F85600E7135A /* DNCommunityListModel+net.m */,
+				187DBD621D87F85600E7135A /* DNPublished-Approve-ViolationsModel.h */,
+				187DBD631D87F85600E7135A /* DNPublished-Approve-ViolationsModel.m */,
+				187DBD641D87F85600E7135A /* DNPublished_Approve_ViolationsModel+net.h */,
+				187DBD651D87F85600E7135A /* DNPublished_Approve_ViolationsModel+net.m */,
+				187DBD601D87F85600E7135A /* DNLastAnswerNumModel.h */,
+				187DBD611D87F85600E7135A /* DNLastAnswerNumModel.m */,
+				187DBD5E1D87F85600E7135A /* DNLastAnswerNumModel+net.h */,
+				187DBD5F1D87F85600E7135A /* DNLastAnswerNumModel+net.m */,
+				187DBD5C1D87F85600E7135A /* DNLastAnswerDetailModel.h */,
+				187DBD5D1D87F85600E7135A /* DNLastAnswerDetailModel.m */,
+				187DBD5A1D87F85600E7135A /* DNLastAnswerDetailModel+net.h */,
+				187DBD5B1D87F85600E7135A /* DNLastAnswerDetailModel+net.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1568,8 +1570,6 @@
 		187DBD731D87F85600E7135A /* view */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD741D87F85600E7135A /* GPCommnuityDetailCell.h */,
-				187DBD751D87F85600E7135A /* GPCommnuityDetailCell.m */,
 				187DBD761D87F85600E7135A /* GPCommunityAllCell.h */,
 				187DBD771D87F85600E7135A /* GPCommunityAllCell.m */,
 				187DBD781D87F85600E7135A /* GPCommunityAllCell.xib */,
@@ -1579,11 +1579,13 @@
 				187DBD7C1D87F85600E7135A /* GPCommunityRankCell.h */,
 				187DBD7D1D87F85600E7135A /* GPCommunityRankCell.m */,
 				187DBD7E1D87F85600E7135A /* GPCommunityRankCell.xib */,
-				187DBD7F1D87F85600E7135A /* GPInvientNumberTableViewCell.h */,
-				187DBD801D87F85600E7135A /* GPInvientNumberTableViewCell.m */,
+				187DBD741D87F85600E7135A /* GPCommnuityDetailCell.h */,
+				187DBD751D87F85600E7135A /* GPCommnuityDetailCell.m */,
 				187DBD811D87F85600E7135A /* GPMineCaptainCollectionViewCell.h */,
 				187DBD821D87F85600E7135A /* GPMineCaptainCollectionViewCell.m */,
 				187DBD831D87F85600E7135A /* GPMineCaptainCollectionViewCell.xib */,
+				187DBD7F1D87F85600E7135A /* GPInvientNumberTableViewCell.h */,
+				187DBD801D87F85600E7135A /* GPInvientNumberTableViewCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1609,13 +1611,13 @@
 		187DBD881D87F85600E7135A /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD891D87F85600E7135A /* DNAdvisoryDetailViewController.h */,
-				187DBD8A1D87F85600E7135A /* DNAdvisoryDetailViewController.m */,
-				187DBD8B1D87F85600E7135A /* DNAdvisoryDetailViewController.xib */,
 				187DBD8C1D87F85600E7135A /* GPOfficeShowController.h */,
 				187DBD8D1D87F85600E7135A /* GPOfficeShowController.m */,
 				187DBD8E1D87F85600E7135A /* GPVipTableViewController.h */,
 				187DBD8F1D87F85600E7135A /* GPVipTableViewController.m */,
+				187DBD891D87F85600E7135A /* DNAdvisoryDetailViewController.h */,
+				187DBD8A1D87F85600E7135A /* DNAdvisoryDetailViewController.m */,
+				187DBD8B1D87F85600E7135A /* DNAdvisoryDetailViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -1623,14 +1625,14 @@
 		187DBD901D87F85600E7135A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD911D87F85600E7135A /* DNDetailModel+net.h */,
-				187DBD921D87F85600E7135A /* DNDetailModel+net.m */,
-				187DBD931D87F85600E7135A /* DNDetailModel.h */,
-				187DBD941D87F85600E7135A /* DNDetailModel.m */,
 				187DBD951D87F85600E7135A /* GPHomeInformationList.h */,
 				187DBD961D87F85600E7135A /* GPHomeInformationList.m */,
 				187DBD971D87F85600E7135A /* GPHomeInformationModel.h */,
 				187DBD981D87F85600E7135A /* GPHomeInformationModel.m */,
+				187DBD931D87F85600E7135A /* DNDetailModel.h */,
+				187DBD941D87F85600E7135A /* DNDetailModel.m */,
+				187DBD911D87F85600E7135A /* DNDetailModel+net.h */,
+				187DBD921D87F85600E7135A /* DNDetailModel+net.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1638,14 +1640,14 @@
 		187DBD991D87F85600E7135A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				187DBD9A1D87F85600E7135A /* GPHomeInfoList.h */,
-				187DBD9B1D87F85600E7135A /* GPHomeInfoList.m */,
-				187DBD9C1D87F85600E7135A /* GPHomeInfoMole.h */,
-				187DBD9D1D87F85600E7135A /* GPHomeInfoMole.m */,
 				187DBD9E1D87F85600E7135A /* GPHomeProductShowList.h */,
 				187DBD9F1D87F85600E7135A /* GPHomeProductShowList.m */,
 				187DBDA01D87F85600E7135A /* GPHomeProductShowModel.h */,
 				187DBDA11D87F85600E7135A /* GPHomeProductShowModel.m */,
+				187DBD9C1D87F85600E7135A /* GPHomeInfoMole.h */,
+				187DBD9D1D87F85600E7135A /* GPHomeInfoMole.m */,
+				187DBD9A1D87F85600E7135A /* GPHomeInfoList.h */,
+				187DBD9B1D87F85600E7135A /* GPHomeInfoList.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1653,9 +1655,9 @@
 		187DBDA21D87F85600E7135A /* productShow */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDAA1D87F85600E7135A /* model */,
 				187DBDA31D87F85600E7135A /* controller */,
 				187DBDBB1D87F85600E7135A /* view */,
+				187DBDAA1D87F85600E7135A /* model */,
 			);
 			path = productShow;
 			sourceTree = "<group>";
@@ -1663,15 +1665,15 @@
 		187DBDA31D87F85600E7135A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDA41D87F85600E7135A /* DNMessageViewController.h */,
-				187DBDA51D87F85600E7135A /* DNMessageViewController.m */,
-				187DBDA61D87F85600E7135A /* DNProductSubControllerViewController.h */,
-				187DBDA71D87F85600E7135A /* DNProductSubControllerViewController.m */,
 				187DBDA81D87F85600E7135A /* GPproductCategaryController.h */,
 				187DBDA91D87F85600E7135A /* GPproductCategaryController.m */,
+				187DBDA61D87F85600E7135A /* DNProductSubControllerViewController.h */,
+				187DBDA71D87F85600E7135A /* DNProductSubControllerViewController.m */,
 				187DC16E1D87F95E00E7135A /* DNProDetailControllerViewController.h */,
 				187DC16F1D87F95E00E7135A /* DNProDetailControllerViewController.m */,
 				187DC1711D87FC8D00E7135A /* DNProDetailControllerViewController.xib */,
+				187DBDA41D87F85600E7135A /* DNMessageViewController.h */,
+				187DBDA51D87F85600E7135A /* DNMessageViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1679,22 +1681,22 @@
 		187DBDAA1D87F85600E7135A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDAB1D87F85600E7135A /* DNProductDesModel+net.h */,
-				187DBDAC1D87F85600E7135A /* DNProductDesModel+net.m */,
-				187DBDAD1D87F85600E7135A /* DNProductDesModel.h */,
-				187DBDAE1D87F85600E7135A /* DNProductDesModel.m */,
-				187DBDAF1D87F85600E7135A /* DNProductDetail+net.h */,
-				187DBDB01D87F85600E7135A /* DNProductDetail+net.m */,
-				187DBDB11D87F85600E7135A /* DNProductDetail.h */,
-				187DBDB21D87F85600E7135A /* DNProductDetail.m */,
-				187DBDB31D87F85600E7135A /* GPCategaryIDModel+net.h */,
-				187DBDB41D87F85600E7135A /* GPCategaryIDModel+net.m */,
 				187DBDB51D87F85600E7135A /* GPCategaryIDModel.h */,
 				187DBDB61D87F85600E7135A /* GPCategaryIDModel.m */,
-				187DBDB71D87F85600E7135A /* productSubModel+net.h */,
-				187DBDB81D87F85600E7135A /* productSubModel+net.m */,
+				187DBDB31D87F85600E7135A /* GPCategaryIDModel+net.h */,
+				187DBDB41D87F85600E7135A /* GPCategaryIDModel+net.m */,
 				187DBDB91D87F85600E7135A /* productSubModel.h */,
 				187DBDBA1D87F85600E7135A /* productSubModel.m */,
+				187DBDB71D87F85600E7135A /* productSubModel+net.h */,
+				187DBDB81D87F85600E7135A /* productSubModel+net.m */,
+				187DBDB11D87F85600E7135A /* DNProductDetail.h */,
+				187DBDB21D87F85600E7135A /* DNProductDetail.m */,
+				187DBDAF1D87F85600E7135A /* DNProductDetail+net.h */,
+				187DBDB01D87F85600E7135A /* DNProductDetail+net.m */,
+				187DBDAD1D87F85600E7135A /* DNProductDesModel.h */,
+				187DBDAE1D87F85600E7135A /* DNProductDesModel.m */,
+				187DBDAB1D87F85600E7135A /* DNProductDesModel+net.h */,
+				187DBDAC1D87F85600E7135A /* DNProductDesModel+net.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1715,8 +1717,8 @@
 		187DBDC21D87F85600E7135A /* search */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDC31D87F85600E7135A /* image */,
 				187DBDD71D87F85600E7135A /* net */,
+				187DBDC31D87F85600E7135A /* image */,
 			);
 			path = search;
 			sourceTree = "<group>";
@@ -1792,9 +1794,9 @@
 		187DBDD71D87F85600E7135A /* net */ = {
 			isa = PBXGroup;
 			children = (
+				187DBDE31D87F85600E7135A /* view */,
 				187DBDD81D87F85600E7135A /* controller */,
 				187DBDDE1D87F85600E7135A /* model */,
-				187DBDE31D87F85600E7135A /* view */,
 			);
 			path = net;
 			sourceTree = "<group>";
@@ -1802,11 +1804,11 @@
 		187DBDD81D87F85600E7135A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDD91D87F85600E7135A /* KFSearchResultViewController.h */,
-				187DBDDA1D87F85600E7135A /* KFSearchResultViewController.m */,
 				187DBDDB1D87F85600E7135A /* KFSearchViewController.h */,
 				187DBDDC1D87F85600E7135A /* KFSearchViewController.m */,
 				187DBDDD1D87F85600E7135A /* KFSearchViewController.xib */,
+				187DBDD91D87F85600E7135A /* KFSearchResultViewController.h */,
+				187DBDDA1D87F85600E7135A /* KFSearchResultViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -1814,10 +1816,10 @@
 		187DBDDE1D87F85600E7135A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDDF1D87F85600E7135A /* DNProuductSearch+net.h */,
-				187DBDE01D87F85600E7135A /* DNProuductSearch+net.m */,
 				187DBDE11D87F85600E7135A /* DNProuductSearch.h */,
 				187DBDE21D87F85600E7135A /* DNProuductSearch.m */,
+				187DBDDF1D87F85600E7135A /* DNProuductSearch+net.h */,
+				187DBDE01D87F85600E7135A /* DNProuductSearch+net.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -1835,10 +1837,10 @@
 		187DBDE71D87F85600E7135A /* view */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDE81D87F85600E7135A /* CZSearchBar.h */,
-				187DBDE91D87F85600E7135A /* CZSearchBar.m */,
 				187DBDEA1D87F85600E7135A /* SearchBarView.h */,
 				187DBDEB1D87F85600E7135A /* SearchBarView.m */,
+				187DBDE81D87F85600E7135A /* CZSearchBar.h */,
+				187DBDE91D87F85600E7135A /* CZSearchBar.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1846,23 +1848,21 @@
 		187DBDEC1D87F85600E7135A /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				187DBDED1D87F85600E7135A /* addPhoto */,
-				187DBE7B1D87F85600E7135A /* AFNetworking */,
-				187DBE8F1D87F85600E7135A /* denglu@2x.png */,
-				187DBE901D87F85600E7135A /* denglu@3x.png */,
-				187DBE911D87F85600E7135A /* fenye */,
+				187DBF401D87F85600E7135A /* YSLContainerViewController */,
+				187DBEE61D87F85600E7135A /* MJRefresh */,
+				187DBF051D87F85600E7135A /* SDAutoLayout */,
+				187DBEF71D87F85600E7135A /* Reachability */,
 				187DBE981D87F85600E7135A /* JSONModel */,
-				187DBEB21D87F85600E7135A /* JSWave */,
+				187DBEFA1D87F85600E7135A /* SCNavTabBar */,
+				187DBDED1D87F85600E7135A /* addPhoto */,
 				187DBEB51D87F85600E7135A /* Masonry */,
+				187DBE911D87F85600E7135A /* fenye */,
+				187DBE7B1D87F85600E7135A /* AFNetworking */,
+				187DBF0A1D87F85600E7135A /* SDCycleScrollView */,
 				187DBED01D87F85600E7135A /* MBProgressHUD */,
 				187DBED61D87F85600E7135A /* MJExtension */,
-				187DBEE61D87F85600E7135A /* MJRefresh */,
-				187DBEF71D87F85600E7135A /* Reachability */,
-				187DBEFA1D87F85600E7135A /* SCNavTabBar */,
-				187DBF051D87F85600E7135A /* SDAutoLayout */,
-				187DBF0A1D87F85600E7135A /* SDCycleScrollView */,
 				187DBF1E1D87F85600E7135A /* SDWebImage */,
-				187DBF401D87F85600E7135A /* YSLContainerViewController */,
+				187DBEB21D87F85600E7135A /* JSWave */,
 			);
 			path = libs;
 			sourceTree = "<group>";
@@ -2449,8 +2449,8 @@
 		187DBF451D87F85600E7135A /* me */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF461D87F85700E7135A /* controller */,
 				187DBF8B1D87F85700E7135A /* Utils */,
+				187DBF461D87F85700E7135A /* controller */,
 				187DBF901D87F85700E7135A /* view */,
 			);
 			path = me;
@@ -2459,23 +2459,23 @@
 		187DBF461D87F85700E7135A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF471D87F85700E7135A /* GPFindOutController.h */,
-				187DBF481D87F85700E7135A /* GPFindOutController.m */,
-				187DBF491D87F85700E7135A /* GPMeController.h */,
-				187DBF4A1D87F85700E7135A /* GPMeController.m */,
-				187DBF4B1D87F85700E7135A /* GPMobileQuickViewController.h */,
-				187DBF4C1D87F85700E7135A /* GPMobileQuickViewController.m */,
-				187DBF4D1D87F85700E7135A /* LoginViewController.h */,
-				187DBF4E1D87F85700E7135A /* LoginViewController.m */,
-				187DBF4F1D87F85700E7135A /* myCommunion */,
+				187DBF7F1D87F85700E7135A /* myPublish */,
+				187DBF721D87F85700E7135A /* myMall */,
 				187DBF521D87F85700E7135A /* myCommunity */,
 				187DBF5B1D87F85700E7135A /* Myinfo */,
-				187DBF611D87F85700E7135A /* MyLeaveWord */,
-				187DBF721D87F85700E7135A /* myMall */,
+				187DBF4F1D87F85700E7135A /* myCommunion */,
 				187DBF771D87F85700E7135A /* MyMessage */,
-				187DBF7F1D87F85700E7135A /* myPublish */,
+				187DBF611D87F85700E7135A /* MyLeaveWord */,
+				187DBF491D87F85700E7135A /* GPMeController.h */,
+				187DBF4A1D87F85700E7135A /* GPMeController.m */,
+				187DBF4D1D87F85700E7135A /* LoginViewController.h */,
+				187DBF4E1D87F85700E7135A /* LoginViewController.m */,
 				187DBF891D87F85700E7135A /* RegisterViewController.h */,
 				187DBF8A1D87F85700E7135A /* RegisterViewController.m */,
+				187DBF471D87F85700E7135A /* GPFindOutController.h */,
+				187DBF481D87F85700E7135A /* GPFindOutController.m */,
+				187DBF4B1D87F85700E7135A /* GPMobileQuickViewController.h */,
+				187DBF4C1D87F85700E7135A /* GPMobileQuickViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -2492,14 +2492,14 @@
 		187DBF521D87F85700E7135A /* myCommunity */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF531D87F85700E7135A /* GPMineCommuintyNumberController.h */,
-				187DBF541D87F85700E7135A /* GPMineCommuintyNumberController.m */,
 				187DBF551D87F85700E7135A /* GPMineCommunityLeaderController.h */,
 				187DBF561D87F85700E7135A /* GPMineCommunityLeaderController.m */,
-				187DBF571D87F85700E7135A /* GPMineNoteTableViewController.h */,
-				187DBF581D87F85700E7135A /* GPMineNoteTableViewController.m */,
+				187DBF531D87F85700E7135A /* GPMineCommuintyNumberController.h */,
+				187DBF541D87F85700E7135A /* GPMineCommuintyNumberController.m */,
 				187DBF591D87F85700E7135A /* GPMineTopicTableController.h */,
 				187DBF5A1D87F85700E7135A /* GPMineTopicTableController.m */,
+				187DBF571D87F85700E7135A /* GPMineNoteTableViewController.h */,
+				187DBF581D87F85700E7135A /* GPMineNoteTableViewController.m */,
 			);
 			path = myCommunity;
 			sourceTree = "<group>";
@@ -2528,14 +2528,14 @@
 		187DBF621D87F85700E7135A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF631D87F85700E7135A /* GPMyReceiveDetailTableController.h */,
-				187DBF641D87F85700E7135A /* GPMyReceiveDetailTableController.m */,
-				187DBF651D87F85700E7135A /* GPMyReceivedTableController.h */,
-				187DBF661D87F85700E7135A /* GPMyReceivedTableController.m */,
 				187DBF671D87F85700E7135A /* GPMySentTableController.h */,
 				187DBF681D87F85700E7135A /* GPMySentTableController.m */,
 				187DBF691D87F85700E7135A /* GPNoteAndReceiveTableController.h */,
 				187DBF6A1D87F85700E7135A /* GPNoteAndReceiveTableController.m */,
+				187DBF651D87F85700E7135A /* GPMyReceivedTableController.h */,
+				187DBF661D87F85700E7135A /* GPMyReceivedTableController.m */,
+				187DBF631D87F85700E7135A /* GPMyReceiveDetailTableController.h */,
+				187DBF641D87F85700E7135A /* GPMyReceiveDetailTableController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -2543,12 +2543,12 @@
 		187DBF6B1D87F85700E7135A /* view */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF6C1D87F85700E7135A /* GPReceiveTableCell.h */,
-				187DBF6D1D87F85700E7135A /* GPReceiveTableCell.m */,
-				187DBF6E1D87F85700E7135A /* GPReceiveTableCell.xib */,
 				187DBF6F1D87F85700E7135A /* GPSendMessageTableCell.h */,
 				187DBF701D87F85700E7135A /* GPSendMessageTableCell.m */,
 				187DBF711D87F85700E7135A /* GPSendMessageTableCell.xib */,
+				187DBF6C1D87F85700E7135A /* GPReceiveTableCell.h */,
+				187DBF6D1D87F85700E7135A /* GPReceiveTableCell.m */,
+				187DBF6E1D87F85700E7135A /* GPReceiveTableCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -2556,10 +2556,10 @@
 		187DBF721D87F85700E7135A /* myMall */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF731D87F85700E7135A /* GPMallRepairController.h */,
-				187DBF741D87F85700E7135A /* GPMallRepairController.m */,
 				187DBF751D87F85700E7135A /* GPMyMallController.h */,
 				187DBF761D87F85700E7135A /* GPMyMallController.m */,
+				187DBF731D87F85700E7135A /* GPMallRepairController.h */,
+				187DBF741D87F85700E7135A /* GPMallRepairController.m */,
 			);
 			path = myMall;
 			sourceTree = "<group>";
@@ -2625,10 +2625,10 @@
 		187DBF8B1D87F85700E7135A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF8C1D87F85700E7135A /* LolitaFunctions.h */,
-				187DBF8D1D87F85700E7135A /* LolitaFunctions.m */,
 				187DBF8E1D87F85700E7135A /* UIButton+Extension.h */,
 				187DBF8F1D87F85700E7135A /* UIButton+Extension.m */,
+				187DBF8C1D87F85700E7135A /* LolitaFunctions.h */,
+				187DBF8D1D87F85700E7135A /* LolitaFunctions.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -2636,13 +2636,13 @@
 		187DBF901D87F85700E7135A /* view */ = {
 			isa = PBXGroup;
 			children = (
-				187DBF911D87F85700E7135A /* btRippleButtton.h */,
-				187DBF921D87F85700E7135A /* btRippleButtton.m */,
 				187DBF931D87F85700E7135A /* CustomSwitch.h */,
 				187DBF941D87F85700E7135A /* CustomSwitch.m */,
 				187DBF951D87F85700E7135A /* CustomSwitch.xib */,
 				187DBF961D87F85700E7135A /* DKTextField.h */,
 				187DBF971D87F85700E7135A /* DKTextField.m */,
+				187DBF911D87F85700E7135A /* btRippleButtton.h */,
+				187DBF921D87F85700E7135A /* btRippleButtton.m */,
 				187DBF981D87F85700E7135A /* GPLabel.h */,
 				187DBF991D87F85700E7135A /* GPLabel.m */,
 			);
@@ -2652,9 +2652,9 @@
 		187DBFB31D87F85700E7135A /* resourse */ = {
 			isa = PBXGroup;
 			children = (
-				187DBFB41D87F85700E7135A /* home */,
 				187DBFC41D87F85700E7135A /* launchImage */,
 				187DBFC61D87F85700E7135A /* mine */,
+				187DBFB41D87F85700E7135A /* home */,
 			);
 			path = resourse;
 			sourceTree = "<group>";
@@ -2716,10 +2716,10 @@
 		187DBFCF1D87F85700E7135A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				187DBFD01D87F85700E7135A /* GPNewsSendController.h */,
-				187DBFD11D87F85700E7135A /* GPNewsSendController.m */,
 				187DBFD21D87F85700E7135A /* GPSendMessageController.h */,
 				187DBFD31D87F85700E7135A /* GPSendMessageController.m */,
+				187DBFD01D87F85700E7135A /* GPNewsSendController.h */,
+				187DBFD11D87F85700E7135A /* GPNewsSendController.m */,
 				187DBFD41D87F85700E7135A /* GPSendProductController.h */,
 				187DBFD51D87F85700E7135A /* GPSendProductController.m */,
 			);
@@ -2747,8 +2747,8 @@
 		187DBFDC1D87F85700E7135A /* tools */ = {
 			isa = PBXGroup;
 			children = (
-				187DBFDD1D87F85700E7135A /* Http */,
 				187DBFE01D87F85700E7135A /* Param */,
+				187DBFDD1D87F85700E7135A /* Http */,
 			);
 			path = tools;
 			sourceTree = "<group>";
