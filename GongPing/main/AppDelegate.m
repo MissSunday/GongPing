@@ -1,7 +1,7 @@
 //
 //  AppDelegate.m
 //  公平矿业
-//
+//  ok get git !!!!
 //  Created by apple on 16/6/1.
 //  Copyright © 2016年 xiaoAn. All rights reserved.
 //
@@ -18,8 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    int a =0;
-    //this is my second change an commit
+   
     GPtabBarController * mainVC = [[GPtabBarController alloc]init];
     
     [self.window makeKeyAndVisible];
