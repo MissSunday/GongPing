@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  GongPing
+//
+//  Created by apple on 16/9/13.
+//  Copyright © 2016年 xiaoRan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define SCREEN_W self.view.bounds.size.width
+#define SCREEN_H [UIScreen mainScreen].bounds.size.height
+
+#   define GPLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define CZStatusCellMargin 10
+#define USERID 1
+
+
+#import "AFNetworking.h"
+#import "JSONModel.h"
+
+//首页产品展示
+#define productShowUrl @"Http://192.168.0.31/XYGPKY_App/Product/queryFourProducts.json"
+
+//更多产品展示
+#define moreProductShowUrl @"http://192.168.0.31/XYGPKY_App/Product/getMoreProduct/"
+//首页资讯信息
+#define messageInfoUrl @"Http://192.168.0.31/XYGPKY_App/Zixun/queryTwoZx.json"
+
+//产品展示类别
+#define productCategoryUrl @"Http://192.168.0.31/XYGPKY_App/Product/getAllFirfl.json"
+
+//产品展示详情
+#define productSubUrl @"Http://192.168.0.31/XYGPKY_App/Product/getSecflByfir/"
+
+//产品列表
+#define productListUrl @"Http://192.168.0.31/XYGPKY_App/Product/queryProductPage/"
+
+//产品详述
+#define productDesUrl @"Http://192.168.0.31/XYGPKY_App/Product/productDetail/"
+
+//产品搜索
+
+#define productSearchUrl @"Http://192.168.0.31/XYGPKY_App/Product/searchPro/"
+
+//资讯详情页
+#define AdvisoryDetailUrl @"Http://192.168.0.31/XYGPKY_App/Zixun/zixunDetail/"
+
+//社区排行
+#define communityListlUrl @"Http://192.168.0.31/XYGPKY_App/Sq/getMoreSq/"
+
+//社区搜索
+#define communitySearchlUrl @"Http://192.168.0.31/XYGPKY_App/Sq/searchSq/"
+
+
+//我的矿长社区-已发布-待审核-违规
+#define postStatusUrl @"http://192.168.0.31/XYGPKY_App/Sq/myKzSq/"
+
+//矿工社区
+#define minersCommunityUrl @"Http://192.168.0.31/XYGPKY_App/Sq/myKgSq/"
+//加入社区
+#define joinCommunityUrl @"http://192.168.0.31/XYGPKY_App/Sq/getNotInSq/"
+
+//最后回复
+#define lastAnswerNumUrl @"Http://192.168.0.31/XYGPKY_App/Sq/getLastAnswer/"
+#define lastAnswerDetailUrl @"Http://192.168.0.31/XYGPKY_App/Sq/getLastAnswer2/"
+
+//留言
+#define leaveMessageUrl @"Http://192.168.0.31/XYGPKY_App/Product/addProductLy/"
+
+// userKeys
+#define EnterCount @"1"
+#endif /* PrefixHeader_pch */
